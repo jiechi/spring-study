@@ -1,0 +1,17 @@
+server:
+  port: 21010
+spring:
+  application:
+    name: cloud-config-client
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CLOUD-CONFIG-ERVER
+  profiles:
+    active: test
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:21002/eureka/
+
