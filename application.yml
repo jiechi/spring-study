@@ -9,4 +9,4 @@ spring:
     port: 5672
     username: admin
     password: admin
-    virtual-host: /test
+    virtual-host: /spring-cloud
