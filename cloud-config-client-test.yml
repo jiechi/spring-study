@@ -1,5 +1,3 @@
-server:
-  port: 21010
 configImage:
   server: www.baidu.com 
 
